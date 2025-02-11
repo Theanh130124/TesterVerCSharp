@@ -1,0 +1,10 @@
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.Calculator.resources
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.pdb
