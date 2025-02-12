@@ -9,11 +9,39 @@ namespace CalculatorTester
     {
 
         private Calculation c;
-        [TestInitialize] //Khai báo để chạy ban đầu luôn chạy trc testCase
+        //Khai báo thêm testContext để thực hiện lấy dữ liệu với file
         
+        public TestContext TestContext { get; set; }  //Phải đặt tên TestContext ghi hoa đúng hệt vậy mới được
+
+
+        //Link TestData với Project
+        [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data\TestData.csv", "TestData#csv", DataAccessMethod.Sequential)] //tham số : dạng file , tên file (lấy trong properties của nó  , tablename , phương thức kết nối (như mình khai báo
+
+        
+        public void TestWithDataSource()
+        {
+            int a, b, excepted, actual;
+            string symbol = TestContext.DataRow[2].ToString(); // nó là cột phép tính có dâu ' ở trước
+            symbol = symbol.Remove(0, 1);
+            a = int.Parse(TestContext.DataRow[0].ToString()); //DataRow[0] -> là giá trị cột đầu tiên , datarow là hàng hiện tại [0] là cột đầu / hoặc có thể truyền vào tên cột là a 
+            b = int.Parse(TestContext.DataRow[1].ToString()); // có thể truyền vào tên cột là b 
+            excepted = int.Parse(TestContext.DataRow[3].ToString());
+            c = new Calculation(a, b);
+            actual = c.Exucute(symbol);// kết quả thực tế
+            Assert.AreEqual(excepted, actual); // True hay false ;
+            //Nữa nhớ đổi thành dấu 
+
+
+        }
+
+        //là đọc tuần tự từng dòng)
+
+        [TestInitialize] //Khai báo để chạy ban đầu luôn chạy trc testCase
         public void Init() { // Dùng chung
             c = new Calculation(10, 5);
         }
+
 
         [TestMethod]//Định nghĩa 1 testCase 
         public void TestTong()
@@ -64,5 +92,19 @@ namespace CalculatorTester
             int actual = c.Exucute("Chia");
 
         }
+
+        [TestMethod]
+        public void TestPower()
+        {
+            int n;
+            double x, excepted , actual;
+            n = -1;                  //Đã chạy với n== 0 thì testcase pass
+            x = 2;
+            excepted = 0.5;
+            actual = Calculation.Power(x, n);
+            Assert.AreEqual(excepted, actual);
+        }
+        
+       
     }
 }

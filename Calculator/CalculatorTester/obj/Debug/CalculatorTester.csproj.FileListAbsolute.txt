@@ -16,3 +16,4 @@ D:\KiemThuPM\DemoTesterVerC-\Calculator\CalculatorTester\obj\Debug\CalculatorTes
 D:\KiemThuPM\DemoTesterVerC-\Calculator\CalculatorTester\obj\Debug\Calculat.411C22ED.Up2Date
 D:\KiemThuPM\DemoTesterVerC-\Calculator\CalculatorTester\obj\Debug\CalculatorTester.dll
 D:\KiemThuPM\DemoTesterVerC-\Calculator\CalculatorTester\obj\Debug\CalculatorTester.pdb
+D:\KiemThuPM\DemoTesterVerC-\Calculator\CalculatorTester\bin\Debug\Data\TestData.csv

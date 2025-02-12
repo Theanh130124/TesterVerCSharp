@@ -55,5 +55,14 @@ namespace Calculator
             int ketQua = c.Exucute("Chia");
             txtRes.Text = ketQua.ToString();
         }
+
+        private void BtnPower_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(txtSoThuNhat.Text);
+            int n = int.Parse(txtSoThuHai.Text);
+            double ketQua = Calculation.Power(x, n); //Phương thức tỉnh gọi qua tên class chưa nó luôn
+            txtRes.Text = ketQua.ToString();
+
+        }
     }
 }

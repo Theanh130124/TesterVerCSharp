@@ -38,6 +38,15 @@ namespace Calculator
 
             return res;
         }
+        public static double Power(double x, int n)  // 
+        { 
+            if (n == 0)
+                return 1.0;
+            else if (n > 0)
+                return x * Power(x, n - 1);   // fix lại thành Power -> đã thấy lỗi ở đây thì đi tạo testCase  -> sửa n thành x 
+            else
+                return 1/ Power(x, -n) ;  // đã sửa khi test thấy bug 
+        }
         
     }
 }

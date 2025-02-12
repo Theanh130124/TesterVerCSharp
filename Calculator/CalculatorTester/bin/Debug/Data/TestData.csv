@@ -1,0 +1,5 @@
+﻿a,b,symbol,expected
+3,5,'Cộng,8
+-3,-5,'Trừ,2
+-3,3,'Nhân,-9
+-5,5,'Chia,-1
