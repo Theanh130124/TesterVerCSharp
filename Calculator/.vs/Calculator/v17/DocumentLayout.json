@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|d:\\kiemthupm\\demotesterverc-\\calculator\\calculator\\calculator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4A6336-E0AE-4042-AA88-30F5DFD20C5F}|CalculatorTester\\CalculatorTester.csproj|d:\\kiemthupm\\demotesterverc-\\calculator\\calculatortester\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F4A6336-E0AE-4042-AA88-30F5DFD20C5F}|CalculatorTester\\CalculatorTester.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\calculatortester\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F4A6336-E0AE-4042-AA88-30F5DFD20C5F}|CalculatorTester\\CalculatorTester.csproj|solutionrelative:calculatortester\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|solutionrelative:calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F4A6336-E0AE-4042-AA88-30F5DFD20C5F}|CalculatorTester\\CalculatorTester.csproj|d:\\kiemthupm\\demotesterverc-\\calculator\\calculatortester\\data\\testpower.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8F4A6336-E0AE-4042-AA88-30F5DFD20C5F}|CalculatorTester\\CalculatorTester.csproj|solutionrelative:calculatortester\\data\\testpower.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4A6336-E0AE-4042-AA88-30F5DFD20C5F}|CalculatorTester\\CalculatorTester.csproj|d:\\kiemthupm\\demotesterverc-\\calculator\\calculatortester\\data\\testdata.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8F4A6336-E0AE-4042-AA88-30F5DFD20C5F}|CalculatorTester\\CalculatorTester.csproj|solutionrelative:calculatortester\\data\\testdata.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|d:\\kiemthupm\\demotesterverc-\\calculator\\calculator\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4A6336-E0AE-4042-AA88-30F5DFD20C5F}|CalculatorTester\\CalculatorTester.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\calculatortester\\data\\testdata.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8F4A6336-E0AE-4042-AA88-30F5DFD20C5F}|CalculatorTester\\CalculatorTester.csproj|solutionrelative:calculatortester\\data\\testdata.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\calculator\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11C6BD1A-A492-4CA8-A0AF-10DB578A76CA}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,96 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "TestData.csv",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\CalculatorTester\\Data\\TestData.csv",
               "RelativeDocumentMoniker": "CalculatorTester\\Data\\TestData.csv",
               "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\CalculatorTester\\Data\\TestData.csv",
               "RelativeToolTip": "CalculatorTester\\Data\\TestData.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2025-02-11T16:59:09.034Z",
+              "WhenOpened": "2025-02-15T14:19:34.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Calculation.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\Calculator\\Calculation.cs",
               "RelativeDocumentMoniker": "Calculator\\Calculation.cs",
               "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\Calculator\\Calculation.cs",
               "RelativeToolTip": "Calculator\\Calculation.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAC8AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T10:23:01.878Z",
+              "WhenOpened": "2025-02-15T14:18:03.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestPower.csv",
+              "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\CalculatorTester\\Data\\TestPower.csv",
+              "RelativeDocumentMoniker": "CalculatorTester\\Data\\TestPower.csv",
+              "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\CalculatorTester\\Data\\TestPower.csv",
+              "RelativeToolTip": "CalculatorTester\\Data\\TestPower.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-02-15T14:16:26.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Calculator.cs [Design]",
-              "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\Calculator\\Calculator.cs",
-              "RelativeDocumentMoniker": "Calculator\\Calculator.cs",
-              "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\Calculator\\Calculator.cs [Design]",
-              "RelativeToolTip": "Calculator\\Calculator.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T10:05:02.304Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Calculator.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\Calculator\\Calculator.cs",
               "RelativeDocumentMoniker": "Calculator\\Calculator.cs",
               "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\Calculator\\Calculator.cs",
               "RelativeToolTip": "Calculator\\Calculator.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAawD4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwC0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T10:14:31.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\Calculator\\Program.cs",
-              "RelativeDocumentMoniker": "Calculator\\Program.cs",
-              "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\Calculator\\Program.cs",
-              "RelativeToolTip": "Calculator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T12:13:50.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\CalculatorTester\\UnitTest1.cs",
               "RelativeDocumentMoniker": "CalculatorTester\\UnitTest1.cs",
               "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\CalculatorTester\\UnitTest1.cs",
               "RelativeToolTip": "CalculatorTester\\UnitTest1.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAADwv24AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAADwv2oAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T12:00:48.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Calculator.Designer.cs",
-              "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\Calculator\\Calculator.Designer.cs",
-              "RelativeDocumentMoniker": "Calculator\\Calculator.Designer.cs",
-              "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\Calculator\\Calculator\\Calculator.Designer.cs",
-              "RelativeToolTip": "Calculator\\Calculator.Designer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T05:05:08.787Z",
               "EditorCaption": ""
             }
           ]

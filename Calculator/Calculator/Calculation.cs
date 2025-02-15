@@ -21,13 +21,13 @@ namespace Calculator
             int res= 0; 
             switch (calSymbol)
             {
-                case "Cộng":
+                case "Cong":
                      res = a + b;
                     break;
-                case "Trừ":
+                case "Tru":
                     res = a - b;
                     break;
-                case "Nhân":
+                case "Nhan":
                      res = a * b;
                     break;
                 case "Chia":

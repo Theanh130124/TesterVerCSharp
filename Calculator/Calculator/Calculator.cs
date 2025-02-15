@@ -24,7 +24,7 @@ namespace Calculator
             int a = int.Parse(txtSoThuNhat.Text);
             int b = int.Parse(txtSoThuHai.Text);
             Calculation c = new Calculation(a,b);
-            int ketQua = c.Exucute("Cộng");
+            int ketQua = c.Exucute("Cong");
             txtRes.Text = ketQua.ToString();
 
         }
@@ -34,7 +34,7 @@ namespace Calculator
             int a = int.Parse(txtSoThuNhat.Text);
             int b = int.Parse(txtSoThuHai.Text);
             Calculation c = new Calculation(a, b);
-            int ketQua = c.Exucute("Trừ");
+            int ketQua = c.Exucute("Tru");
             txtRes.Text = ketQua.ToString();
         }
 
@@ -43,7 +43,7 @@ namespace Calculator
             int a = int.Parse(txtSoThuNhat.Text);
             int b = int.Parse(txtSoThuHai.Text);
             Calculation c = new Calculation(a, b);
-            int ketQua = c.Exucute("Nhân");
+            int ketQua = c.Exucute("Nhan");
             txtRes.Text = ketQua.ToString();
         }
 

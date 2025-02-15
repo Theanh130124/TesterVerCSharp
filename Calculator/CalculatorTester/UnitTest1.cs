@@ -16,14 +16,14 @@ namespace CalculatorTester
 
         //Link TestData với Project
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data\TestData.csv", "TestData#csv", DataAccessMethod.Sequential)] //tham số : dạng file , tên file (lấy trong properties của nó  , tablename , phương thức kết nối (như mình khai báo
-
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data\TestData.csv", "TestData#csv", DataAccessMethod.Sequential )] //tham số : dạng file , tên file (lấy trong properties của nó  , tablename , phương thức kết nối (như mình khai báo
+        //Tu nhan biet HEADER roi  voi DataAccessMethod.Sequential 
         
         public void TestWithDataSource()
         {
             int a, b, excepted, actual;
             string symbol = TestContext.DataRow[2].ToString(); // nó là cột phép tính có dâu ' ở trước
-            symbol = symbol.Remove(0, 1);
+            //symbol = symbol.Remove(0, 1);
             a = int.Parse(TestContext.DataRow[0].ToString()); //DataRow[0] -> là giá trị cột đầu tiên , datarow là hàng hiện tại [0] là cột đầu / hoặc có thể truyền vào tên cột là a 
             b = int.Parse(TestContext.DataRow[1].ToString()); // có thể truyền vào tên cột là b 
             excepted = int.Parse(TestContext.DataRow[3].ToString());
@@ -50,7 +50,7 @@ namespace CalculatorTester
             int excepted = 15; // kết quả mong muốn
             //Calculation c = new Calculation(10, 5);
             Init();
-            int actual = c.Exucute("Cộng");// kết quả thực tế
+            int actual = c.Exucute("Cong");// kết quả thực tế
             Assert.AreEqual(excepted,actual); // True hay false ;
 
 
@@ -62,7 +62,7 @@ namespace CalculatorTester
             int excepted = 5;
             //Calculation c = new Calculation(10,5);
             Init();
-            int actual = c.Exucute("Trừ");
+            int actual = c.Exucute("Tru");
             Assert.AreEqual(excepted,actual);
         }
         [TestMethod]
@@ -71,7 +71,7 @@ namespace CalculatorTester
             int excepted = 50;
             //Calculation c = new Calculation(10, 5);
             Init();
-            int actual = c.Exucute("Nhân");
+            int actual = c.Exucute("Nhan");
             Assert.AreEqual(excepted, actual);
         }
         [TestMethod]
@@ -89,18 +89,20 @@ namespace CalculatorTester
         {
   
             Calculation c = new Calculation(10, 0);
-            int actual = c.Exucute("Chia");
+            c.Exucute("Chia");
 
         }
 
+        
         [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data\TestPower.csv", "TestPower#csv", DataAccessMethod.Sequential)]
         public void TestPower()
         {
             int n;
             double x, excepted , actual;
-            n = -1;                  //Đã chạy với n== 0 thì testcase pass
-            x = 2;
-            excepted = 0.5;
+            n = int.Parse(TestContext.DataRow[1].ToString());                  //Đã chạy với n== 0 thì testcase pass
+            x = double.Parse(TestContext.DataRow[0].ToString());
+            excepted = double.Parse(TestContext.DataRow[2].ToString());
             actual = Calculation.Power(x, n);
             Assert.AreEqual(excepted, actual);
         }
