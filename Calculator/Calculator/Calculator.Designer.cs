@@ -32,15 +32,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtSoThuNhat = new System.Windows.Forms.TextBox();
-            this.txtSoThuHai = new System.Windows.Forms.TextBox();
-            this.txtRes = new System.Windows.Forms.TextBox();
+            this.txtSoThuNhat_21_Anh = new System.Windows.Forms.TextBox();
+            this.txtSoThuHai_21_Anh = new System.Windows.Forms.TextBox();
+            this.txtRes_21_Anh = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnCong = new System.Windows.Forms.Button();
-            this.btnTru = new System.Windows.Forms.Button();
-            this.btnNhan = new System.Windows.Forms.Button();
-            this.btnChia = new System.Windows.Forms.Button();
-            this.BtnPower = new System.Windows.Forms.Button();
+            this.btnCong_21_Anh = new System.Windows.Forms.Button();
+            this.btnTru_21_Anh = new System.Windows.Forms.Button();
+            this.btnNhan_21_Anh = new System.Windows.Forms.Button();
+            this.btnChia_21_Anh = new System.Windows.Forms.Button();
+            this.BtnPower_21_Anh = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,38 +87,38 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Kết quả";
             // 
-            // txtSoThuNhat
+            // txtSoThuNhat_21_Anh
             // 
-            this.txtSoThuNhat.Location = new System.Drawing.Point(242, 44);
-            this.txtSoThuNhat.Margin = new System.Windows.Forms.Padding(4);
-            this.txtSoThuNhat.Name = "txtSoThuNhat";
-            this.txtSoThuNhat.Size = new System.Drawing.Size(328, 27);
-            this.txtSoThuNhat.TabIndex = 4;
+            this.txtSoThuNhat_21_Anh.Location = new System.Drawing.Point(242, 44);
+            this.txtSoThuNhat_21_Anh.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSoThuNhat_21_Anh.Name = "txtSoThuNhat_21_Anh";
+            this.txtSoThuNhat_21_Anh.Size = new System.Drawing.Size(328, 27);
+            this.txtSoThuNhat_21_Anh.TabIndex = 4;
             // 
-            // txtSoThuHai
+            // txtSoThuHai_21_Anh
             // 
-            this.txtSoThuHai.Location = new System.Drawing.Point(242, 117);
-            this.txtSoThuHai.Margin = new System.Windows.Forms.Padding(4);
-            this.txtSoThuHai.Name = "txtSoThuHai";
-            this.txtSoThuHai.Size = new System.Drawing.Size(328, 27);
-            this.txtSoThuHai.TabIndex = 5;
+            this.txtSoThuHai_21_Anh.Location = new System.Drawing.Point(242, 117);
+            this.txtSoThuHai_21_Anh.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSoThuHai_21_Anh.Name = "txtSoThuHai_21_Anh";
+            this.txtSoThuHai_21_Anh.Size = new System.Drawing.Size(328, 27);
+            this.txtSoThuHai_21_Anh.TabIndex = 5;
             // 
-            // txtRes
+            // txtRes_21_Anh
             // 
-            this.txtRes.Location = new System.Drawing.Point(242, 190);
-            this.txtRes.Margin = new System.Windows.Forms.Padding(4);
-            this.txtRes.Name = "txtRes";
-            this.txtRes.ReadOnly = true;
-            this.txtRes.Size = new System.Drawing.Size(328, 27);
-            this.txtRes.TabIndex = 6;
+            this.txtRes_21_Anh.Location = new System.Drawing.Point(242, 190);
+            this.txtRes_21_Anh.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRes_21_Anh.Name = "txtRes_21_Anh";
+            this.txtRes_21_Anh.ReadOnly = true;
+            this.txtRes_21_Anh.Size = new System.Drawing.Size(328, 27);
+            this.txtRes_21_Anh.TabIndex = 6;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.txtSoThuNhat);
+            this.groupBox1.Controls.Add(this.txtSoThuNhat_21_Anh);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.txtRes);
+            this.groupBox1.Controls.Add(this.txtRes_21_Anh);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.txtSoThuHai);
+            this.groupBox1.Controls.Add(this.txtSoThuHai_21_Anh);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(136, 105);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
@@ -129,70 +129,66 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tính toán đơn giản";
             // 
-            // btnCong
+            // btnCong_21_Anh
             // 
-            this.btnCong.Location = new System.Drawing.Point(378, 448);
-            this.btnCong.Margin = new System.Windows.Forms.Padding(4);
-            this.btnCong.Name = "btnCong";
-            this.btnCong.Size = new System.Drawing.Size(94, 29);
-            this.btnCong.TabIndex = 8;
-            this.btnCong.Text = "Cộng";
-            this.btnCong.UseVisualStyleBackColor = true;
-            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
+            this.btnCong_21_Anh.Location = new System.Drawing.Point(378, 448);
+            this.btnCong_21_Anh.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCong_21_Anh.Name = "btnCong_21_Anh";
+            this.btnCong_21_Anh.Size = new System.Drawing.Size(94, 29);
+            this.btnCong_21_Anh.TabIndex = 8;
+            this.btnCong_21_Anh.Text = "Cộng";
+            this.btnCong_21_Anh.UseVisualStyleBackColor = true;
+           
             // 
-            // btnTru
+            // btnTru_21_Anh
             // 
-            this.btnTru.Location = new System.Drawing.Point(503, 448);
-            this.btnTru.Margin = new System.Windows.Forms.Padding(4);
-            this.btnTru.Name = "btnTru";
-            this.btnTru.Size = new System.Drawing.Size(94, 29);
-            this.btnTru.TabIndex = 9;
-            this.btnTru.Text = "Trừ";
-            this.btnTru.UseVisualStyleBackColor = true;
-            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
+            this.btnTru_21_Anh.Location = new System.Drawing.Point(503, 448);
+            this.btnTru_21_Anh.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTru_21_Anh.Name = "btnTru_21_Anh";
+            this.btnTru_21_Anh.Size = new System.Drawing.Size(94, 29);
+            this.btnTru_21_Anh.TabIndex = 9;
+            this.btnTru_21_Anh.Text = "Trừ";
+            this.btnTru_21_Anh.UseVisualStyleBackColor = true;
             // 
-            // btnNhan
+            // btnNhan_21_Anh
             // 
-            this.btnNhan.Location = new System.Drawing.Point(628, 448);
-            this.btnNhan.Margin = new System.Windows.Forms.Padding(4);
-            this.btnNhan.Name = "btnNhan";
-            this.btnNhan.Size = new System.Drawing.Size(94, 29);
-            this.btnNhan.TabIndex = 10;
-            this.btnNhan.Text = "Nhân";
-            this.btnNhan.UseVisualStyleBackColor = true;
-            this.btnNhan.Click += new System.EventHandler(this.btnNhan_Click);
+            this.btnNhan_21_Anh.Location = new System.Drawing.Point(628, 448);
+            this.btnNhan_21_Anh.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNhan_21_Anh.Name = "btnNhan_21_Anh";
+            this.btnNhan_21_Anh.Size = new System.Drawing.Size(94, 29);
+            this.btnNhan_21_Anh.TabIndex = 10;
+            this.btnNhan_21_Anh.Text = "Nhân";
+            this.btnNhan_21_Anh.UseVisualStyleBackColor = true;
             // 
-            // btnChia
+            // btnChia_21_Anh
             // 
-            this.btnChia.Location = new System.Drawing.Point(753, 448);
-            this.btnChia.Margin = new System.Windows.Forms.Padding(4);
-            this.btnChia.Name = "btnChia";
-            this.btnChia.Size = new System.Drawing.Size(94, 29);
-            this.btnChia.TabIndex = 11;
-            this.btnChia.Text = "Chia";
-            this.btnChia.UseVisualStyleBackColor = true;
-            this.btnChia.Click += new System.EventHandler(this.btnChia_Click);
+            this.btnChia_21_Anh.Location = new System.Drawing.Point(753, 448);
+            this.btnChia_21_Anh.Margin = new System.Windows.Forms.Padding(4);
+            this.btnChia_21_Anh.Name = "btnChia_21_Anh";
+            this.btnChia_21_Anh.Size = new System.Drawing.Size(94, 29);
+            this.btnChia_21_Anh.TabIndex = 11;
+            this.btnChia_21_Anh.Text = "Chia";
+            this.btnChia_21_Anh.UseVisualStyleBackColor = true;
             // 
-            // BtnPower
+            // BtnPower_21_Anh
             // 
-            this.BtnPower.Location = new System.Drawing.Point(269, 448);
-            this.BtnPower.Name = "BtnPower";
-            this.BtnPower.Size = new System.Drawing.Size(75, 29);
-            this.BtnPower.TabIndex = 12;
-            this.BtnPower.Text = "n";
-            this.BtnPower.UseVisualStyleBackColor = true;
-            this.BtnPower.Click += new System.EventHandler(this.BtnPower_Click);
+            this.BtnPower_21_Anh.Location = new System.Drawing.Point(269, 448);
+            this.BtnPower_21_Anh.Name = "BtnPower_21_Anh";
+            this.BtnPower_21_Anh.Size = new System.Drawing.Size(75, 29);
+            this.BtnPower_21_Anh.TabIndex = 12;
+            this.BtnPower_21_Anh.Text = "n";
+            this.BtnPower_21_Anh.UseVisualStyleBackColor = true;
             // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 562);
-            this.Controls.Add(this.BtnPower);
-            this.Controls.Add(this.btnChia);
-            this.Controls.Add(this.btnNhan);
-            this.Controls.Add(this.btnTru);
-            this.Controls.Add(this.btnCong);
+            this.Controls.Add(this.BtnPower_21_Anh);
+            this.Controls.Add(this.btnChia_21_Anh);
+            this.Controls.Add(this.btnNhan_21_Anh);
+            this.Controls.Add(this.btnTru_21_Anh);
+            this.Controls.Add(this.btnCong_21_Anh);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -211,15 +207,15 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtSoThuNhat;
-        private System.Windows.Forms.TextBox txtSoThuHai;
-        private System.Windows.Forms.TextBox txtRes;
+        private System.Windows.Forms.TextBox txtSoThuNhat_21_Anh;
+        private System.Windows.Forms.TextBox txtSoThuHai_21_Anh;
+        private System.Windows.Forms.TextBox txtRes_21_Anh;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnCong;
-        private System.Windows.Forms.Button btnTru;
-        private System.Windows.Forms.Button btnNhan;
-        private System.Windows.Forms.Button btnChia;
-        private System.Windows.Forms.Button BtnPower;
+        private System.Windows.Forms.Button btnCong_21_Anh;
+        private System.Windows.Forms.Button btnTru_21_Anh;
+        private System.Windows.Forms.Button btnNhan_21_Anh;
+        private System.Windows.Forms.Button btnChia_21_Anh;
+        private System.Windows.Forms.Button BtnPower_21_Anh;
     }
 }
 

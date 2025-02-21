@@ -9,43 +9,43 @@ namespace Calculator
 {
     public class Calculation //internal khác project không dùng được  ->  nên đã đổi thành public
     {
-        private int a, b; 
+        private int a_21_Anh, b_21_Anh; 
         
-        public Calculation(int a , int b)
+        public Calculation(int a_21_Anh, int b_21_Anh)
         {
-            this.a = a; 
-            this.b = b;  
+            this.a_21_Anh = a_21_Anh; 
+            this.b_21_Anh = b_21_Anh;  
         }
-        public int Exucute(string calSymbol)
+        public int Exucute(string calSymbol_21_Anh)
         {
-            int res= 0; 
-            switch (calSymbol)
+            int res_21_Anh = 0; 
+            switch (calSymbol_21_Anh)
             {
-                case "Cong":
-                     res = a + b;
+                case "+":
+                    res_21_Anh = a_21_Anh + b_21_Anh;
                     break;
-                case "Tru":
-                    res = a - b;
+                case "-":
+                    res_21_Anh = a_21_Anh - b_21_Anh;
                     break;
-                case "Nhan":
-                     res = a * b;
+                case "*":
+                    res_21_Anh = a_21_Anh * b_21_Anh;
                     break;
-                case "Chia":
-                    res = a / b; ;
+                case "/":
+                    res_21_Anh = a_21_Anh / b_21_Anh; 
                     break;
             }
 
 
-            return res;
+            return res_21_Anh;
         }
-        public static double Power(double x, int n)  // 
+        public static double Power_21_Anh(double x_21_Anh, int n_21_Anh)  // 
         { 
-            if (n == 0)
+            if (n_21_Anh == 0)
                 return 1.0;
-            else if (n > 0)
-                return x * Power(x, n - 1);   // fix lại thành Power -> đã thấy lỗi ở đây thì đi tạo testCase  -> sửa n thành x 
+            else if (n_21_Anh > 0)
+                return x_21_Anh * Power_21_Anh(x_21_Anh, n_21_Anh - 1);   // fix lại thành Power -> đã thấy lỗi ở đây thì đi tạo testCase  -> sửa n thành x 
             else
-                return 1/ Power(x, -n) ;  // đã sửa khi test thấy bug 
+                return 1/ Power_21_Anh(x_21_Anh, -n_21_Anh) ;  // đã sửa khi test thấy bug 
         }
         
     }
