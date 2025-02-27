@@ -78,7 +78,7 @@ namespace SeleniumWF
 
             //
              ReadOnlyCollection<IWebElement> elments = driver_3.FindElements(By.CssSelector(".g h3"));
-            foreach ( var element_1 in  elments )
+            foreach ( var element_1 in  elments.Take(10) ) // .Take(10) lấy 10 phần tử đầu
             {
                 Console.WriteLine(element_1.Text);
                 Console.WriteLine("====================================");
