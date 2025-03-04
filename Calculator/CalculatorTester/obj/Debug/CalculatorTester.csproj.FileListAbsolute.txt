@@ -18,3 +18,4 @@ D:\KiemThuPM\DemoTesterVerC-\Calculator\CalculatorTester\obj\Debug\CalculatorTes
 D:\KiemThuPM\DemoTesterVerC-\Calculator\CalculatorTester\obj\Debug\CalculatorTester.pdb
 D:\KiemThuPM\DemoTesterVerC-\Calculator\CalculatorTester\bin\Debug\Data\TestData.csv
 D:\KiemThuPM\DemoTesterVerC-\Calculator\CalculatorTester\bin\Debug\Data\TestPower.csv
+D:\KiemThuPM\DemoTesterVerC-\Calculator\CalculatorTester\bin\Debug\Data\DataSet.xlsx

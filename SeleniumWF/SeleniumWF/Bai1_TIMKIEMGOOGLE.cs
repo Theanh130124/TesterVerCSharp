@@ -85,8 +85,17 @@ namespace SeleniumWF
             }    
 
             driver_3.Close();
+            //Ngoài ra còn có 
 
+            //bool checkDisplay = element.Displayed; -> true / false
+            //bool checkSelect = element.Selected; -> true/false
+            //element.Size , .Location   các thứ ...
+
+
+            //By.LinkText("Kênh người bán") -> tìm đúng hoa thường 
+            //By.PartialLinkText("Kênh người bán") -> tìm hoa thường oke
             
+            //By.XPath -> nhớ \ \ nếu trong biến có "username"  -> \"username"\
 
         }
     }

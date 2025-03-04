@@ -35,3 +35,8 @@ D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\VNExpress_Selenium\obj\Debug\VNExpress_S
 D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\VNExpress_Selenium\obj\Debug\VNExpres.03209A86.Up2Date
 D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\VNExpress_Selenium\obj\Debug\VNExpress_Selenium.exe
 D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\VNExpress_Selenium\obj\Debug\VNExpress_Selenium.pdb
+D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\VNExpress_Selenium\obj\Debug\VNExpress_Selenium.LMS_OU.resources
+D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\VNExpress_Selenium\bin\Debug\Newtonsoft.Json.dll
+D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\VNExpress_Selenium\bin\Debug\WebDriver.Support.dll
+D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\VNExpress_Selenium\bin\Debug\Newtonsoft.Json.xml
+D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\VNExpress_Selenium\bin\Debug\WebDriver.Support.xml

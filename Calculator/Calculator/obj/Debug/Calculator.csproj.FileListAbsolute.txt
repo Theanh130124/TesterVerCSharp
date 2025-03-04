@@ -8,3 +8,6 @@ D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.csproj.G
 D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.exe
 D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.pdb
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\bin\Debug\System.Data.OleDb.dll
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\bin\Debug\System.Data.OleDb.xml
+D:\KiemThuPM\DemoTesterVerC-\Calculator\Calculator\obj\Debug\Calculator.csproj.Up2Date

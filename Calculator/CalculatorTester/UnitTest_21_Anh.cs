@@ -11,7 +11,8 @@ namespace CalculatorTester
         private Calculation c_21_Anh;
         //Khai báo thêm testContext để thực hiện lấy dữ liệu với file
         
-        public TestContext TestContext { get; set; }  //Phải đặt tên TestContext ghi hoa đúng hệt vậy mới được
+        public TestContext TestContext { get; set; }
+        //Phải đặt tên TestContext ghi hoa đúng hệt vậy mới được (để làm việc vs data)
 
 
         //Link TestData với Project
@@ -24,6 +25,27 @@ namespace CalculatorTester
             int a_21_Anh, b_21_Anh, excepted_21_Anh, actual_21_Anh;
             string symbol_21_Anh = TestContext.DataRow[2].ToString(); // nó là cột phép tính có dâu ' ở trước
             symbol_21_Anh = symbol_21_Anh.Remove(0, 1);
+            a_21_Anh = int.Parse(TestContext.DataRow[0].ToString()); //DataRow[0] -> là giá trị cột đầu tiên , datarow là hàng hiện tại [0] là cột đầu / hoặc có thể truyền vào tên cột là a 
+            b_21_Anh = int.Parse(TestContext.DataRow[1].ToString()); // có thể truyền vào tên cột là b 
+            excepted_21_Anh = int.Parse(TestContext.DataRow[3].ToString());
+            c_21_Anh = new Calculation(a_21_Anh, b_21_Anh);
+            actual_21_Anh = c_21_Anh.Exucute(symbol_21_Anh);// kết quả thực tế
+            Assert.AreEqual(excepted_21_Anh, actual_21_Anh); // True hay false ;
+            //Nữa nhớ đổi thành dấu 
+
+
+        }
+
+        [TestMethod]
+        [DataSource("System.Data.OleDb",
+    "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\Data\\DataSet.xlsx;Extended Properties='Excel 12.0 Xml;HDR=YES';",
+    "Sheet1$",
+    DataAccessMethod.Sequential)]
+        public void TestWithDataExcelSource_21_Anh()
+        {
+            int a_21_Anh, b_21_Anh, excepted_21_Anh, actual_21_Anh;
+            string symbol_21_Anh = TestContext.DataRow[2].ToString(); // nó là cột phép tính có dâu ' ở trước
+            //symbol_21_Anh = symbol_21_Anh.Remove(0, 1); // excel khoong cần này -> vì mỗi cột tách riêng
             a_21_Anh = int.Parse(TestContext.DataRow[0].ToString()); //DataRow[0] -> là giá trị cột đầu tiên , datarow là hàng hiện tại [0] là cột đầu / hoặc có thể truyền vào tên cột là a 
             b_21_Anh = int.Parse(TestContext.DataRow[1].ToString()); // có thể truyền vào tên cột là b 
             excepted_21_Anh = int.Parse(TestContext.DataRow[3].ToString());

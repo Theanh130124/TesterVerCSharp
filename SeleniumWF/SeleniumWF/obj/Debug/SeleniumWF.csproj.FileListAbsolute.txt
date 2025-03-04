@@ -32,3 +32,5 @@ D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\SeleniumWF\obj\Debug\SeleniumWF.csproj.C
 D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\SeleniumWF\obj\Debug\SeleniumWF.csproj.Up2Date
 D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\SeleniumWF\obj\Debug\SeleniumWF.exe
 D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\SeleniumWF\obj\Debug\SeleniumWF.pdb
+D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\SeleniumWF\bin\Debug\WebDriver.Support.dll
+D:\KiemThuPM\DemoTesterVerC-\SeleniumWF\SeleniumWF\bin\Debug\WebDriver.Support.xml
