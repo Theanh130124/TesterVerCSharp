@@ -17,7 +17,8 @@ namespace VNExpress_Selenium
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
-            Application.Run(new LMS_OU());
+            //Application.Run(new LMS_OU());
+            Application.Run(new RegisterFacebook());
         }
     }
 }
