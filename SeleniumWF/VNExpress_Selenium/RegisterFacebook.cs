@@ -70,6 +70,10 @@ namespace VNExpress_Selenium
 
                 driver.FindElement(By.Name("websubmit")).Click();
 
+
+
+
+
                 //No, Create New Account
             }
             catch (Exception ex) {

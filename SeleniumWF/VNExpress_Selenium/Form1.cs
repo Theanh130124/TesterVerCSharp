@@ -27,7 +27,7 @@ namespace VNExpress_Selenium
             chrome.HideCommandPromptWindow = true;
             WebDriver driver = new ChromeDriver(chrome);
             driver.Navigate().GoToUrl("https://vnexpress.net/");
-            ReadOnlyCollection<IWebElement> elements = driver.FindElements(By.CssSelector(".item-news"));
+            ReadOnlyCollection<IWebElement> elements = driver.FindElements(By.CssSelector(".item-news")); // 1 cái card
             foreach (var element in elements.Take(5))
             {
 
