@@ -38,6 +38,21 @@ namespace Calculator
 
             return res_21_Anh;
         }
+
+        //Hàm lúc sai
+        //public static double Power_21_Anh(double x_21_Anh, int n_21_Anh)  // 
+        //{ 
+        //    if (n_21_Anh == 0)
+        //        return 1.0;
+        //    else if (n_21_Anh > 0)
+        //        return x_21_Anh* Power_21_Anh(x_21_Anh, n_21_Anh - 1);   // fix lại thành Power -> đã thấy lỗi ở đây thì đi tạo testCase  -> sửa n thành x 
+        //    else
+        //        return 1/ Power_21_Anh(x_21_Anh, -n_21_Anh);  // đã sửa khi test thấy bug 
+        //}
+
+
+        //Hàm đã sửa đúng
+
         public static double Power_21_Anh(double x_21_Anh, int n_21_Anh)  // 
         { 
             if (n_21_Anh == 0)
@@ -47,6 +62,8 @@ namespace Calculator
             else
                 return 1/ Power_21_Anh(x_21_Anh, -n_21_Anh) ;  // đã sửa khi test thấy bug 
         }
+
+
         
     }
 }
