@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|solutionrelative:vnexpress_selenium\\cellphones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\bin\\Debug\\data\\account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VNExpress_Selenium\\bin\\Debug\\data\\account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\vnexpress_selenium\\cellphones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|solutionrelative:vnexpress_selenium\\cellphones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\vnexpress_selenium\\lms_ou.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|solutionrelative:vnexpress_selenium\\lms_ou.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7EB6CD-B1FB-4183-A710-0DAEE6D9E8C6}|SeleniumWF\\SeleniumWF.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\seleniumwf\\bai1_timkiemgoogle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA7EB6CD-B1FB-4183-A710-0DAEE6D9E8C6}|SeleniumWF\\SeleniumWF.csproj|solutionrelative:seleniumwf\\bai1_timkiemgoogle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\vnexpress_selenium\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|solutionrelative:vnexpress_selenium\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\vnexpress_selenium\\registerfacebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -27,20 +43,8 @@
       "RelativeMoniker": "D:0:0:{FA7EB6CD-B1FB-4183-A710-0DAEE6D9E8C6}|SeleniumWF\\SeleniumWF.csproj|solutionrelative:seleniumwf\\bai1_timkiemgoogle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA7EB6CD-B1FB-4183-A710-0DAEE6D9E8C6}|SeleniumWF\\SeleniumWF.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\seleniumwf\\bai1_timkiemgoogle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA7EB6CD-B1FB-4183-A710-0DAEE6D9E8C6}|SeleniumWF\\SeleniumWF.csproj|solutionrelative:seleniumwf\\bai1_timkiemgoogle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\vnexpress_selenium\\registerfacebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|solutionrelative:vnexpress_selenium\\registerfacebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\vnexpress_selenium\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|solutionrelative:vnexpress_selenium\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\vnexpress_selenium\\lms_ou.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|solutionrelative:vnexpress_selenium\\lms_ou.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\vnexpress_selenium\\lms_ou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\vnexpress_selenium\\lms_ou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E5C649A1-C815-457D-84DC-354B74008700}|VNExpress_Selenium\\VNExpress_Selenium.csproj|solutionrelative:vnexpress_selenium\\lms_ou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\bin\\Debug\\data\\account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VNExpress_Selenium\\bin\\Debug\\data\\account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA7EB6CD-B1FB-4183-A710-0DAEE6D9E8C6}|SeleniumWF\\SeleniumWF.csproj|D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\seleniumwf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,8 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "account.json",
+              "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\bin\\Debug\\data\\account.json",
+              "RelativeDocumentMoniker": "VNExpress_Selenium\\bin\\Debug\\data\\account.json",
+              "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\bin\\Debug\\data\\account.json",
+              "RelativeToolTip": "VNExpress_Selenium\\bin\\Debug\\data\\account.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T10:49:58.934Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -76,14 +92,14 @@
               "RelativeDocumentMoniker": "VNExpress_Selenium\\CellPhoneS.cs",
               "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\CellPhoneS.cs",
               "RelativeToolTip": "VNExpress_Selenium\\CellPhoneS.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAkwC4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwDcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T06:39:44.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\Form1.cs",
               "RelativeDocumentMoniker": "VNExpress_Selenium\\Form1.cs",
@@ -91,84 +107,79 @@
               "RelativeToolTip": "VNExpress_Selenium\\Form1.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T06:19:25.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T06:19:25.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\Form1.cs",
               "RelativeDocumentMoniker": "VNExpress_Selenium\\Form1.cs",
               "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\Form1.cs [Design]",
               "RelativeToolTip": "VNExpress_Selenium\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T08:02:47.654Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-27T08:02:47.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "LMS_OU.Designer.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\LMS_OU.Designer.cs",
               "RelativeDocumentMoniker": "VNExpress_Selenium\\LMS_OU.Designer.cs",
               "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\LMS_OU.Designer.cs",
               "RelativeToolTip": "VNExpress_Selenium\\LMS_OU.Designer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T10:02:27.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Bai1_TIMKIEMGOOGLE.cs [Design]",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\SeleniumWF\\Bai1_TIMKIEMGOOGLE.cs",
               "RelativeDocumentMoniker": "SeleniumWF\\Bai1_TIMKIEMGOOGLE.cs",
               "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\SeleniumWF\\Bai1_TIMKIEMGOOGLE.cs [Design]",
               "RelativeToolTip": "SeleniumWF\\Bai1_TIMKIEMGOOGLE.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T07:58:59.681Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-27T07:58:59.681Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RegisterFacebook.cs [Design]",
-              "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\RegisterFacebook.cs",
-              "RelativeDocumentMoniker": "VNExpress_Selenium\\RegisterFacebook.cs",
-              "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\RegisterFacebook.cs [Design]",
-              "RelativeToolTip": "VNExpress_Selenium\\RegisterFacebook.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T15:18:49.119Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CellPhoneS.cs [Design]",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\CellPhoneS.cs",
               "RelativeDocumentMoniker": "VNExpress_Selenium\\CellPhoneS.cs",
               "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\CellPhoneS.cs [Design]",
               "RelativeToolTip": "VNExpress_Selenium\\CellPhoneS.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T06:39:11.309Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-05T06:39:11.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\Program.cs",
               "RelativeDocumentMoniker": "VNExpress_Selenium\\Program.cs",
               "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\Program.cs",
               "RelativeToolTip": "VNExpress_Selenium\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBUAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T08:18:31.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "RegisterFacebook.cs [Design]",
+              "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\RegisterFacebook.cs",
+              "RelativeDocumentMoniker": "VNExpress_Selenium\\RegisterFacebook.cs",
+              "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\RegisterFacebook.cs [Design]",
+              "RelativeToolTip": "VNExpress_Selenium\\RegisterFacebook.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T15:18:49.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "LMS_OU.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\LMS_OU.cs",
               "RelativeDocumentMoniker": "VNExpress_Selenium\\LMS_OU.cs",
@@ -180,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "RegisterFacebook.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\RegisterFacebook.cs",
               "RelativeDocumentMoniker": "VNExpress_Selenium\\RegisterFacebook.cs",
@@ -188,12 +199,11 @@
               "RelativeToolTip": "VNExpress_Selenium\\RegisterFacebook.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAkwCEAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T15:00:12.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T15:00:12.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Bai1_TIMKIEMGOOGLE.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\SeleniumWF\\Bai1_TIMKIEMGOOGLE.cs",
               "RelativeDocumentMoniker": "SeleniumWF\\Bai1_TIMKIEMGOOGLE.cs",
@@ -201,12 +211,11 @@
               "RelativeToolTip": "SeleniumWF\\Bai1_TIMKIEMGOOGLE.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAowFIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T06:26:09.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T06:26:09.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "LMS_OU.cs [Design]",
               "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\LMS_OU.cs",
               "RelativeDocumentMoniker": "VNExpress_Selenium\\LMS_OU.cs",
@@ -214,18 +223,6 @@
               "RelativeToolTip": "VNExpress_Selenium\\LMS_OU.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T08:18:53.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "account.json",
-              "DocumentMoniker": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\bin\\Debug\\data\\account.json",
-              "RelativeDocumentMoniker": "VNExpress_Selenium\\bin\\Debug\\data\\account.json",
-              "ToolTip": "D:\\KiemThuPM\\DemoTesterVerC-\\SeleniumWF\\VNExpress_Selenium\\bin\\Debug\\data\\account.json",
-              "RelativeToolTip": "VNExpress_Selenium\\bin\\Debug\\data\\account.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T10:49:58.934Z"
             },
             {
               "$type": "Document",

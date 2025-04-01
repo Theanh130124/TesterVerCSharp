@@ -21,8 +21,10 @@ namespace VNExpress_Selenium
             InitializeComponent();
         }
 
+        //Lấy tên sản phẩm và giá Iphone -> 5 sp đầu
         private void button1_Click(object sender, EventArgs e)
         {
+            //Xem selenium tách gọi riêng và in ra vào list 
             ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
             chrome.HideCommandPromptWindow = true;
             WebDriver driver = new ChromeDriver(chrome);

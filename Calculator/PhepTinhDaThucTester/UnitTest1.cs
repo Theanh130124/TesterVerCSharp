@@ -39,6 +39,7 @@ namespace PhepTinhDaThucTester
         }
         // nếu n=1 ?? xem lại test data
         [TestMethod]
+        
         [ExpectedException(typeof(ArgumentException))]
         public void TC2_NhapNAm_ThrowException()
         {

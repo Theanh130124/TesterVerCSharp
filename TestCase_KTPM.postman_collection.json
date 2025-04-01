@@ -1,0 +1,305 @@
+{
+	"info": {
+		"_postman_id": "61ef41e8-9c0e-477e-84b7-f987d8147780",
+		"name": "TestCase_KTPM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39853539"
+	},
+	"item": [
+		{
+			"name": "TC1_getCates_pas_21_Anh",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200); //neu de 201 testcase fail\r",
+							"});\r",
+							"\r",
+							"\r",
+							"//Viet test case để check dữ liệu (phải có) trả về từ BE cho FE làm\r",
+							"\r",
+							"pm.test(\"Test response data\" , () => {\r",
+							"    let data = pm.response.json()\r",
+							"    for (let d of data)\r",
+							"     //giống foreach i in items\r",
+							"     {\r",
+							"        pm.expect(d.id).not.equal(undefined)\r",
+							"        pm.expect(d.name).not.equal(undefined)\r",
+							"     }\r",
+							"})\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api-thaythanh}}/categories/",
+					"host": [
+						"{{api-thaythanh}}"
+					],
+					"path": [
+						"categories",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC2_RegisterAccount_pass_Anh",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//Cần viết dữ liệu bên body trước đối với post\r",
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"  let data =  pm.response.json() //về json trước\r",
+							"\r",
+							"  //expecct là mình goi ra các giá trị bên form_data mình đã truyền vào body muốn test -> to.equal là giá trị mình truyền vào\r",
+							"  pm.expect(data.first_name).to.equal(\"abcd\")\r",
+							"  pm.expect(data.last_name).to.equal(\"1234\")\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "abcd",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "1234",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "demomo24thang2",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"type": "file",
+							"src": "postman-cloud:///1efc5fd5-6453-4a70-8ae8-55e4569a1c49"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{api-thaythanh}}/users/",
+					"host": [
+						"{{api-thaythanh}}"
+					],
+					"path": [
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC3_createUser_fail_21_Anh",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Trung ten user (Bad request) 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "abc",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "cv",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "demomo24thang2",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{api-thaythanh}}/users/",
+					"host": [
+						"{{api-thaythanh}}"
+					],
+					"path": [
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC4_getCurrentUser_pass_21_Anh",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// pm.test(\"Loi chua duoc xac thuc token 401\" , () => {\r",
+							"//     pm.response.to.have.status(401)\r",
+							"// })\r",
+							"\r",
+							"\r",
+							"pm.test(\"Da xac thuc token 200\" , () => {\r",
+							"    pm.response.to.have.status(200)\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{api-thaythanh}}/users/current-user/",
+					"host": [
+						"{{api-thaythanh}}"
+					],
+					"path": [
+						"users",
+						"current-user",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lay token",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "demomo24thang2",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "client_serect",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{api-thaythanh}}/o/token/",
+					"host": [
+						"{{api-thaythanh}}"
+					],
+					"path": [
+						"o",
+						"token",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
